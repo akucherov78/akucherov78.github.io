@@ -1,16 +1,24 @@
 {
 	"applinks": {
-		"apps": [],
-		"details": [
-			{
-				"appID": "RQM2J45CC6.com.finalsurge.finalsurgemobile",
-				"paths": ["/app-download"]
-			},
-			{
-				"appID": "RQM2J45CC6.com.finalsurge.app.rnr",
-				"paths": [ "*"]
-			}
-
-		]
+        "details": [
+            {
+                "appIDs": [ "RQM2J45CC6.com.finalsurge.finalsurgemobile" ],
+                "components": [
+                    {
+                        "/": "/app-download/*",
+                        "comment": "Matches any URL whose path starts with /app-download/"
+                    }                    
+                ]
+            },
+            {
+                "appIDs": [ "RQM2J45CC6.com.finalsurge.app.rnr" ],
+                "components": [
+                    {
+                        "/": "/rnr",
+                        "comment": "Matches any URL whose path starts with /rnr"
+                    }                    
+                ]
+            }
+        ]
 	}
 }
