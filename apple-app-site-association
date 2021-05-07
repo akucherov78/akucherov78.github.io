@@ -8,7 +8,7 @@
 			},
 			{
 				"appID": "RQM2J45CC6.com.finalsurge.app.rnr",
-				"paths": [ "/rnr"]
+				"paths": [ "*"]
 			}
 
 		]
